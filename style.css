@@ -1,0 +1,22 @@
+body {
+  padding-top: 76px;
+  background-color: antiquewhite;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 60%;
+}
+#images-1 {
+  width: 200px;
+  height: 200px;
+  margin-top: 90px;
+}
+#karla {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  width: 50%;
+  height: 50px;
+}

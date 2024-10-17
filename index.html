@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <title>DoG'st</title>
+  </head>
+  <body>
+    <!--Start-work-->
+    <!--Part -0-Start-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo/logo-removebg-preview.png" alt="" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              Dark offcanvas
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--slideShow-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="Dog's//pexels-leah-newhouse-50725-776373.jpg"
+            class="d-block w-100"
+            alt="dog"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Karla</h5>
+            <p>
+              A friendly, golden-coated dog, known for its loyalty,
+              intelligence, and gentle nature.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="Dog's/pexels-brett-sayles-1322182.jpg"
+            class="d-block w-100"
+            alt="dog"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Blue</h5>
+            <p>
+              A small, long-bodied dog with short legs, playful and bold, often
+              called a "wiener dog .
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Dog's/pexels-hnoody93-58997.jpg"
+            class="d-block w-100"
+            alt="dog"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Millky-Brown</h5>
+            <p>
+              medium-sized, thick-furred dog with striking blue eyes, known for
+              its energy and endurance.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Part-2-Start-->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <!--middle-->
+          <div class="row container">
+            <div class="col-md-6">
+              <img
+                id="images-1"
+                class="img rounded-circle"
+                src="Dog's/pexels-leah-newhouse-50725-776373.jpg"
+                alt="Dog"
+              />
+              <h1 class="container">Karla</h1>
+              <p>A friendly, golden-coated dog, known for its loyalty.</p>
+              <button class="btn btn-primary">View Details >></button>
+            </div>
+          </div>
+          <!--middle-->
+        </div>
+        <div class="col">
+          <!--middle-->
+          <div class="row container">
+            <div class="col-md-6">
+              <img
+                id="images-1"
+                class="img rounded-circle"
+                src="Dog's//pexels-hnoody93-58997.jpg"
+                alt="Dog"
+              />
+              <h1 class="container">Blue</h1>
+              <p>A small, long-bodied dog with short legs, playful.</p>
+              <button class="btn btn-primary">View Details >></button>
+            </div>
+          </div>
+          <!--middle-->
+        </div>
+        <div class="col">
+          <!--middle-->
+          <div class="row container">
+            <div class="col-md-6">
+              <img
+                id="images-1"
+                class="img rounded-circle"
+                src="Dog's/pexels-pixabay-247937.jpg"
+                alt="Dog"
+              />
+              <h1 class="container">Brown</h1>
+              <p>medium-sized, thick-furred dog striking blue eyes.</p>
+              <button class="btn btn-primary">View Details >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Part-2-End-->
+    <hr />
+    <!--Part-3-start-->
+    <div class="row">
+      <div class="col-md-6 p-5">
+        <h1 class="text text-center">Karla</h1>
+        <p class="text text-center">
+          Middle Golden Retriever: A friendly, golden-coated dog, known for its
+          loyalty, intelligence, and gentle nature, A friendly, golden-coated
+          dog, known for its loyalty, intelligence, and gentle nature.
+        </p>
+      </div>
+      <div class="col-md-6 p-5">
+        <img
+          src="Dog's/pexels-leah-newhouse-50725-776373.jpg"
+          alt=""
+          id="karla"
+        />
+      </div>
+    </div>
+    <hr />
+    <!--Part-4-start-->
+    <div class="row">
+      <div class="col-md-6 p-5">
+        <img src="Dog's/pexels-hnoody93-58997.jpg" alt="" id="karla" />
+      </div>
+      <div class="col-md-6 p-5">
+        <h1 class="text text-center">Millky-Brown</h1>
+        <p class="text text-center">
+          A medium-sized, thick-furred dog with striking blue eyes, known for
+          its energy and endurance.A medium-sized, thick-furred dog with
+          striking blue eyes, known for its energy and endurance.
+        </p>
+      </div>
+    </div>
+    <hr />
+    <!--Part-5-Start-->
+    <footer class="text text-center">
+      &copy; 2024 DoG's . All rights reserved.
+    </footer>
+  </body>
+</html>
